@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 import FrameHero from '@/components/sections/layouts/hero/FrameHero';
@@ -51,9 +51,9 @@ export default function Home() {
           description="Understand the fundamentals of our token.
           Learn about supply, distribution, and key mechanics."
           kpiItems={[
-            { value: "10M", description: "Total Supply", longDescription: "Total amount of tokens that have been created.", icon: LucideIcon } ,
-            { value: "5M", description: "Circulating Supply", longDescription: "Tokens currently in circulation.", icon: LucideIcon },
-            { value: "1M", description: "Liquidity", longDescription: "Amount of tokens available for trading.", icon: LucideIcon }
+            { value: "10M", description: "Total Supply", longDescription: "Total amount of tokens that have been created.", icon: Star } ,
+            { value: "5M", description: "Circulating Supply", longDescription: "Tokens currently in circulation.", icon: Star },
+            { value: "1M", description: "Liquidity", longDescription: "Amount of tokens available for trading.", icon: Star }
           ]}
         />
       </div>

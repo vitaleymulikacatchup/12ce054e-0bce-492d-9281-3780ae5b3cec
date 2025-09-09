@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Inter_Tight, Poppins } from "next/font/google";
 import "./globals.css";
 
